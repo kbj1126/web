@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+	<title>TrendSearch</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Heebo|Noto+Sans+KR" rel="stylesheet">
+
+	<!-- user style -->
+	<link rel="stylesheet" href="indexStyle.css">
+
+</head>
+<body>
+
+	<header class="header-area navbar-fade" id="header">
+		<nav class="navbar">
+			<a class="navbar-title" href="index.html">Trend Search</a>
+
+			<div class="navbar-menu" id="menu">
+				<div class="nav-item"><a href="sub1.html">전년도 검색어 통계</a></div>
+				<div class="nav-item"><a href="sub2.html">카테고리 관심도 변화</a></div>
+				<div class="nav-item"><a href="sub3.html">인기 급상승 검색어</a></div>
+				<div class="nav-item"><a href="sub4.html">구글 트렌드란</a></div>
+			</div>
+		</nav>
+	</header>
+
+	<div class="section-container">
+		<div class="welcome-area">
+			<div class="container">
+				<div class="image-slide fade">
+					<img src="12.png" height=1080px;>
+					<div class="numbertext"></div>
+				</div>
+				<div class="image-slide fade">
+					<img src="2.jpg" height=1080px;>
+					<div class="numbertext"></div>
+				</div>
+				<div class="image-slide fade">
+					<img src="4.png" height=1080px;>
+					<div class="numbertext"></div>
+				</div>
+				<div class="image-slide fade">
+					<img src="3.png" height=1080px;>
+					<div class="numbertext"></div>
+				</div>
+
+				<a class="image-prev" id="imagePrev">&#10094;</a>
+				<a class="image-next" id="imageNext">&#10095;</a>
+
+				<div class="dots">
+					<span class="dot" id="firstDot"></span>
+					<span class="dot" id="secondDot"></span>
+					<span class="dot" id="thirdDot"></span>
+					<span class="dot" id="forthDot"></span>
+				</div>
+			</div>
+		</div>
+
+	<script src="index.js"></script>
+</body>
+</html>
